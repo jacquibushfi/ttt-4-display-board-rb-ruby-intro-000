@@ -9,6 +9,6 @@ def display_board(board)
 end
 
 
-#board = ["O"," "," ","X"," "," ","X"," ","O"]
+#board = [" "," "," "," "," "," "," "," "," "]
 
 #display_board(board)
