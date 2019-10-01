@@ -2,14 +2,14 @@
 # out the current state.
 def display_board(board)
   a = board
-   puts "#{a[0]}|#{a[0]}|#{a[0]}   "
+   puts "#{a[0]}|#{a[1]}|#{a[2]}"
    puts "-----------"
-   puts "#{a[0]}|#{a[0]}|#{a[0]}   "
+   puts "#{a[3]}|#{a[4]}|#{a[5]}"
    puts "-----------"
-   puts "#{a[0]}|#{a[0]}|   "
+   puts "#{a[6]}|#{a[7]}|#{a[8]}"
 end
 
 
-board = [" "," "," ","X"," "," "," "," "," "]
+board = ["O"," "," ","X"," "," ","X"," ","O"]
 
 display_board(board)
