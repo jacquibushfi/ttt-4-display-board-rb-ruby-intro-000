@@ -6,7 +6,7 @@ def display_board(board)
    puts "-----------"
    puts "#{a[0]}   |   |   "
    puts "-----------"
-   puts "   |   |   "
+   puts "#{a[0]}   |   |   "
 end
 
 
